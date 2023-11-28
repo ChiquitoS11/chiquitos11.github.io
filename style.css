@@ -1,0 +1,76 @@
+body{
+    background-color: #5a464c;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    height: 40px;
+    font-weight: 600;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:crimson;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    background-color: #B5D6B2;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: black 3px solid;
+    width: 20%;
+}
+
+
+
+.marco{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #B5D6B2;
+    width: 20%;
+    border: black 3px solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -1.3%;
+}
+
+div{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contenedor-imagenes img:first-child {
+    margin-right: 10px;
+}
+
+footer {
+    background-color: #FFEFBD;
+    padding-top: 6px;
+    text-align: center;
+    font-family: sans-serif;
+    width: 100%;
+    bottom: 0;
+    height: 23px;
+    position:fixed;
+}
+
+h2:hover {
+    color: #9900FF;
+}
+li:hover{
+    color: #9900FF;
+}
+
+/* enlaces externos*/
+a:hover{    
+    color: #9900FF;
+}
+.instagram{
+    text-decoration: none;
+    color: black;
+}
+a{
+    text-decoration:line;
+    color: black;
+}
